@@ -3,7 +3,7 @@
 # VERSION 0.1
 # DOCKER-VERSION 0.7.0
 
-FROM sleshchenko/java-7
+FROM codenvy/jdk
 
 #Downloading and unpacking Jetty
 RUN /usr/bin/sudo /usr/bin/apt-get update
